@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>London Marathon</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <div class="iframe-container">
+        <iframe src="https://www.youtube.com/embed/xf4eJgwrUyA?controls=0"></iframe>
+        <div class="video-overlay">
+            <h1>Run for Life</h1>
+            <button onclick="hideOverlay()">Join us!</button>
+        </div>
+    </div>
+    <div class="iframe-container">
+        <iframe src="https://www.meteoblue.com/en/weather/widget/daily/london_united-kingdom_2643743?geoloc=fixed&days=7&tempunit=CELSIUS&windunit=MILE_PER_HOUR&precipunit=MILLIMETER&coloured=coloured&pictoicon=0&pictoicon=1&maxtemperature=0&maxtemperature=1&mintemperature=0&mintemperature=1&windspeed=0&windspeed=1&windgust=0&winddirection=0&winddirection=1&uv=0&humidity=0&precipitation=0&precipitation=1&precipitationprobability=0&precipitationprobability=1&spot=0&spot=1&pressure=0&layout=light"  frameborder="0" scrolling="NO" allowtransparency="true" sandbox="allow-same-origin allow-scripts allow-popups allow-popups-to-escape-sandbox"></iframe><div><!-- DO NOT REMOVE THIS LINK --><a href="https://www.meteoblue.com/en/weather/week/london_united-kingdom_2643743?utm_source=weather_widget&utm_medium=linkus&utm_content=daily&utm_campaign=Weather%2BWidget" target="_blank" rel="noopener">meteoblue</a></div>
+    </div>
+    <div class="distance-container">
+        <h2>Running Distances</h2>
+        <ul>
+            <li class="distance">
+                <img class="distance-image" src="https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/k-117-chim-6234.jpg?w=800&dpr=1&fit=default&crop=default&auto=format&fm=pjpg&q=75&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-1.1.1&s=4f48235448690af947ba458d25142dd9" alt="Friends jogging together">
+                <h2>1km: Fun Run</h2>
+                <p>This short and sweet 1km run is perfect for beginners or those who just want to have a bit of fun. Whether you're looking to kickstart your fitness journey or simply enjoy a leisurely jog in the great outdoors, this distance is a great way to get started.</p>
+            </li>
+            <li class="distance">
+                <img class="distance-image" src="https://live.staticflickr.com/7308/26992892183_6950014103_b.jpg" alt="People running through a forest side road.">
+                <h2>5km Run</h2>
+                <p>With a distance of 5km, this run is a great challenge for beginner runners or those who want to improve their fitness. Whether you're looking to increase your speed or endurance, this distance will test your limits and help you reach your goals.</p>
+            </li>
+            <li class="distance">
+                <img class="distance-image" src="http://i.huffpost.com/gen/1431565/thumbs/o-BOSTON-MARATHON-570.jpg?1" alt="People jogging on a road">
+                <h2>10km Run</h2>
+                <p>The 10km run is a great intermediate distance that offers a challenge to runners who have already tackled shorter races. With a mix of speed and endurance, this distance requires a bit more training and dedication, but the sense of accomplishment you'll feel at the finish line will be well worth it.</p>
+            </li>
+            <li class="distance">
+                <img class="distance-image" src="http://upload.wikimedia.org/wikipedia/commons/1/1c/Bristol_Half_Marathon.jpg" alt="People jogging on a road">
+                <h2>Half Marathon</h2>
+                <p>The half marathon is a major milestone for runners and requires dedicated training to complete. At a distance of 21km, this run will push you to your limits both physically and mentally, but the feeling of crossing the finish line is an experience like no other.</p>
+            </li>
+            <li class="distance">
+                <img class="distance-image" src="http://upload.wikimedia.org/wikipedia/commons/3/33/USMC_Marathon.jpg" alt="Large crowd of people running on a road">
+                <h2>Full Marathon</h2>
+                <p>The full marathon is the ultimate challenge for runners and requires months of intense training to complete. With a distance of 42km, this run is not for the faint of heart, but for those who are willing to put in the time and effort, the feeling of crossing the finish line is a truly unforgettable experience.</p>
+            </li>
+        </ul>
+    </div>
+    <div class="map-container">
+        <h2>See you at Big Ben!</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.680563854166!2d-0.12720032332886338!3d51.50072917181182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604c38c8cd1d9%3A0xb78f2474b9a45aa9!2sBig%20Ben!5e0!3m2!1sen!2sca!4v1709179667756!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+	<script>
+		function hideOverlay() {
+			document.querySelector('.video-overlay').style.visibility = 'hidden'
+		}
+	</script>
+</body>
+</html>
